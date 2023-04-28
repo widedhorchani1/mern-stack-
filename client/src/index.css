@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.login {
+  display: flex;
+  height: 750px;
+ font-family: "Philosopher", sans-serif;
+
+
+}
+.part1 {
+  width: 35%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  object-fit: cover;
+}
+
+.part2 {
+  background-color: rgba(182, 201, 182, 0.662);
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+img {
+  width: 100%;
+  padding: 2px;
+  object-fit: cover;
+}
+.RN{
+  display: flex;
+  flex-direction: row;
+  
+  gap: 15px;
+}
